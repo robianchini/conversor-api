@@ -27,10 +27,15 @@ No local de `/unit/` utilize uma das [unidades](##Units) disponíveis e no local
 A resposta da requisição será retornada em JSON com os seguintes campos:
 
 **unitFrom:** unidade de origem informada na requisição
+
 **unitTo:** unidade de destino informada na requisição
+
 **originalValue:** valor a ser convertido informado na requisição
+
 **convertedValue:** valor já convertido
+
 **quotation:** cotação atual da moeda selecionada (exclusivo para
+
 **quotationDate:** data da cotação (exclusivo para conversão de moeda)
 
 
@@ -41,7 +46,7 @@ Request
 
 Response
 
-![](https://img.shields.io/badge/STATUS-200: OK-brightgreen)
+![](https://img.shields.io/badge/STATUS-200%3A%20OK-brightgreen)
 
 
 ```json
@@ -56,7 +61,7 @@ Response
 ```
 
 
-![](https://img.shields.io/badge/STATUS-404: Not Found-red)
+![](https://img.shields.io/badge/STATUS-404%3A%20Not%20Found-red)
 
  ```json
 {
